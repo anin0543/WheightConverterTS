@@ -11,6 +11,7 @@ function ConvertToGrams(): void
     let result : number = number1number * 28.3495231;
     Output.innerHTML = result.toString()
 }
+// Changes to commit
 
 
 ToGramsButton.addEventListener("click", ConvertToGrams);
